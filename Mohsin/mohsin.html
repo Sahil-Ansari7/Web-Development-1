@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COZZY CAFE</title>
+    <link rel="stylesheet" href="server.js">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff5e6;
+        }
+        header {
+            background-color: #ff6600;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-image: url('https://via.placeholder.com/1920x600');
+            background-size: cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .menu {
+            padding: 20px;
+            text-align: center;
+        }
+        .menu h2 {
+            color: #ff6600;
+        }
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .menu-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 200px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .menu-item h3 {
+            margin: 10px 0 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>COZZY CAFE</h1>
+        <p>Delicious Dishes, Made Fresh Every Day!</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h1>Welcome to our cafe</h1>
+        <p>Your one-stop destination for mouthwatering refreshments...</p>
+    </section>
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/200" alt="Cappuccino Blast">
+                <h3>Cappuccino</h3>
+                <p>Perfect balance of espresso.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/200" alt="Pepperoni Pizza">
+                <h3>Pepperoni</h3>
+                <p>Loaded with Pepperoni slices.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/200" alt="Veggie Pizza">
+                <h3>Veggie Delight</h3>
+                <p>Fresh veggies on a cheese base.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 COZZY CAFE. All rights reserved.</p>
+    </footer>
+</body>
+</html>

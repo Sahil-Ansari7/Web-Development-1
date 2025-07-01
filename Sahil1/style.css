@@ -1,0 +1,83 @@
+*{
+    margin: 0PX;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 236, 85);
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: inline-block;
+    margin: auto;
+    margin-top: 40px;
+    padding: 30px 30px;
+    border: 2px solid black;
+    color: rgb(112, 212, 102);
+    background-color: rgb(17, 59, 49);
+    width: 90%;
+    border-radius: 15px;
+    font-family: "Funnel Sans", sans-serif;
+}
+.container p{
+    display: inline;
+    padding: 2px 15px;
+    margin-bottom: 40px;
+    border-radius: 3px;
+    background-color: rgba(111, 212, 102, 0.29);
+}
+.container h2{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container ul{
+    list-style: none;
+}
+.container .work li{
+    margin: 10px 0px;
+}
+.container .skill{
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+.container .skl{
+    display: flex;
+}
+.skl li{
+    border: 2px solid rgb(112, 212, 102);
+    margin-right: 7px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.container1{
+    /*border: 2px solid black;*/
+    display: flex;
+    gap: 20px;
+    height: 280px;
+    padding: 50px 150px;
+    
+}
+.container1 #box{
+    display: flex;
+    align-items: center;
+    height: 220px;
+    width: 240px;
+    text-align: center;
+    padding: 40px;
+    border: 2px solid red;
+    border-radius: 1000%;
+    background-color: rgb(44, 192, 162);
+}
+.container1 #boxd{
+    display: flex;
+    align-items: center;
+    height: 220px;
+    width: 240px;
+    text-align: center;
+    padding: 40px;
+    border: 2px solid red;
+    border-radius: 1000%;
+    background-color: rgb(44, 192, 162);
+}
